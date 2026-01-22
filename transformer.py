@@ -3,7 +3,6 @@ Transformer module to convert purchase data into personnel management insights.
 """
 from datetime import datetime, timedelta
 from typing import List, Dict
-import pandas as pd
 from collections import defaultdict
 
 from purchase_models import PurchaseTransaction
